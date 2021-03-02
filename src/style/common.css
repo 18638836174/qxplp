@@ -1,0 +1,11 @@
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.nowarp {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }

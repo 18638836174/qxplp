@@ -1,0 +1,29 @@
+.el-input__inner{
+    /* border:1 px solid #00ff00; */
+    background-color: rgba(255,255,255);
+}
+.el-input__inner{
+    border: none;
+    color: #222222;
+    font-size: 12px;
+}
+.el-input__inner:focus{
+    border: 0.3px solid #00ff00;
+}
+.el-input__inner::placeholder{
+    color:#999
+}
+
+.home .el-textarea__inner{
+    background-color:rgba(0,0,0,0.5);
+    color:#f6f6f6
+  }
+.home .el-textarea__inner:focus{
+    border:1px solid #00ff00
+}
+.home .el-pagination__total{
+    color:#fff
+}
+.home .el-pagination.is-background .el-pager li:not(.disabled).active{
+    background-color: rgba(0,0,0,0.5);
+}
